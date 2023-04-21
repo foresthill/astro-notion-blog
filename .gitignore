@@ -14,6 +14,7 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.local
 .env.production
 
 # macOS-specific files
@@ -26,3 +27,7 @@ tmp/
 
 public/notion/*
 !public/notion/.gitkeep
+
+# others
+yarn.lock
+package-lock.json
